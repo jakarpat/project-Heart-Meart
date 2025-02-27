@@ -1,0 +1,988 @@
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%85%BE%EF%B8%8F+O%2C+%F0%9F%86%8E+AB&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%8F%8B%EF%B8%8F%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9F%E0%B8%B4%E0%B8%95%E0%B9%80%E0%B8%99%E0%B8%AA
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅾️ O, 🆎 AB","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🏋️‍♀️ ฟิตเนส"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd7e\ufe0f O, \ud83c\udd8e AB",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🆎 AB","pet":"❓ อื่นๆ","drink":"💧 น้ำ","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%F0%9F%8C%B9+%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%81&blood_type=%F0%9F%86%8E+AB&pet=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%88+%E0%B9%80%E0%B8%A1%E0%B8%A9&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♌ สิงห์","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8C+%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8D+%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A2%E0%B9%8C&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♍ กันย์","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264d \u0e01\u0e31\u0e19\u0e22\u0e4c",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%F0%9F%8C%B9+%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%A3%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%81&blood_type=%F0%9F%85%B1%EF%B8%8F+B&pet=%F0%9F%98%B8+%E0%B9%81%E0%B8%A1%E0%B8%A7&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🅱️ B","pet":"😸 แมว","drink":"💧 น้ำ","exercise":"🏃‍♂️ วิ่ง"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd71\ufe0f B",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07"
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"","zodiac":"","languages":"","education":"","interest":"","age_range_min":0,"age_range_max":60,"travel_world":0}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "",
+    "zodiac": "",
+    "languages": "",
+    "education": "",
+    "interest": "",
+    "age_range_min": 0,
+    "age_range_max": 60,
+    "travel_world": 0
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🧘‍♀️ โยคะ"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🧘‍♀️ โยคะ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30"
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%A7%98%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%A7%98%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%F0%9F%8D%B9+%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%F0%9F%8D%B9+%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"🍹 น้ำผลไม้","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"🍹 น้ำผลไม้","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🅾️ O","pet":"🐇 กระต่าย","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🅾️ O","pet":"🐇 กระต่าย","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%F0%9F%85%BE%EF%B8%8F+O&pet=%F0%9F%90%87+%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%A2&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%F0%9F%85%BE%EF%B8%8F+O&pet=%F0%9F%90%87+%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%A2&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8E+%E0%B8%95%E0%B8%B8%E0%B8%A5%E0%B8%A2%E0%B9%8C&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8E+%E0%B8%95%E0%B8%B8%E0%B8%A5%E0%B8%A2%E0%B9%8C&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♎ ตุลย์","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♎ ตุลย์","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐇 กระต่าย","drink":"☕ กาแฟ","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐇 กระต่าย","drink":"☕ กาแฟ","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%87+%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%A2&drink=%E2%98%95+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%87+%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%A2&drink=%E2%98%95+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%85%B0%EF%B8%8F+A&pet=%F0%9F%98%B8+%E0%B9%81%E0%B8%A1%E0%B8%A7&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%F0%9F%A7%98%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%85%B0%EF%B8%8F+A&pet=%F0%9F%98%B8+%E0%B9%81%E0%B8%A1%E0%B8%A7&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%F0%9F%A7%98%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B9%82%E0%B8%A2%E0%B8%84%E0%B8%B0
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅰️ A","pet":"😸 แมว","drink":"💧 น้ำ","exercise":"🧘‍♀️ โยคะ"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅰️ A","pet":"😸 แมว","drink":"💧 น้ำ","exercise":"🧘‍♀️ โยคะ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'ไม่มีข้อมูล', zodiac = '♉ พฤษภ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%F0%9F%91%82+%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3&blood_type=%F0%9F%86%8E+AB&pet=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%F0%9F%91%82+%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%88%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3&blood_type=%F0%9F%86%8E+AB&pet=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"👂 การฟังและเข้าใจความต้องการ","blood_type":"🆎 AB","pet":"❓ อื่นๆ","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"👂 การฟังและเข้าใจความต้องการ","blood_type":"🆎 AB","pet":"❓ อื่นๆ","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\ud83d\udc42 \u0e01\u0e32\u0e23\u0e1f\u0e31\u0e07\u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'ไม่มีข้อมูล', zodiac = '♉ พฤษภ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'ไม่มีข้อมูล', zodiac = '♋ กรกฎ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON หลังจากลบ BOM: {"goal":"หาคู่จริงจัง","zodiac":"♈ เมษ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e2b\u0e32\u0e04\u0e39\u0e48\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29"
+}
+🔍 SQL Query: UPDATE `match` SET goal = 'หาคู่จริงจัง', zodiac = '♈ เมษ' WHERE user_id = 45
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ? WHERE user_id = ?
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ? WHERE user_id = ?
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"❓ อื่นๆ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ? WHERE user_id = ?
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%86%8E+AB&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%F0%9F%92%A7+%E0%B8%99%E0%B9%89%E0%B8%B3&exercise=%E2%9D%93+%E0%B8%AD%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B9%86
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8B+%E0%B8%81%E0%B8%A3%E0%B8%81%E0%B8%8E&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5
+❌ JSON Decode Error: Syntax error
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♋ กรกฎ","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ? WHERE user_id = ?
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'pet' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99
+❌ JSON Decode Error: Syntax error
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c JSON Decode Error: Syntax error"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON หลังจากลบ BOM: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'pet' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99
+📊 JSON หลังจากลบ BOM: email=camel%40gmail.com&goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%8A+%E0%B9%80%E0%B8%A1%E0%B8%96%E0%B8%B8%E0%B8%99&love_expression=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&blood_type=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&pet=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&drink=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&exercise=%F0%9F%9A%B4%E2%80%8D%E2%99%80%EF%B8%8F+%E0%B8%9B%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%99
+❌ JSON Decode Error: Syntax error
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c JSON Decode Error: Syntax error"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"💬 ภาษาแห่งความรัก","blood_type":"🆎 AB","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83d\udcac \u0e20\u0e32\u0e29\u0e32\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'pet' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"💬 ภาษาแห่งความรัก","blood_type":"🆎 AB","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83d\udcac \u0e20\u0e32\u0e29\u0e32\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'pet' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🆎 AB","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'drink' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🆎 AB","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 SQL Query: UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ? WHERE user_id = ?
+🛠️ Debugging Response: {"success":false,"message":"\u274c Unknown column 'drink' in 'field list'"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🅱️ B","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🏋️‍♀️ ฟิตเนส"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\ud83c\udd71\ufe0f B",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c \u0e04\u0e2d\u0e25\u0e31\u0e21\u0e19\u0e4c 'drink' \u0e44\u0e21\u0e48\u0e21\u0e35\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e10\u0e32\u0e19\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"ไม่มีข้อมูล","blood_type":"🅱️ B","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"🏋️‍♀️ ฟิตเนส"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\ud83c\udd71\ufe0f B",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c \u0e04\u0e2d\u0e25\u0e31\u0e21\u0e19\u0e4c 'drink' \u0e44\u0e21\u0e48\u0e21\u0e35\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e10\u0e32\u0e19\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"👂 การฟังและเข้าใจความต้องการ","blood_type":"🅱️ B, 🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"🏋️‍♀️ ฟิตเนส, 🧘‍♀️ โยคะ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83d\udc42 \u0e01\u0e32\u0e23\u0e1f\u0e31\u0e07\u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+    "blood_type": "\ud83c\udd71\ufe0f B, \ud83c\udd8e AB",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a, \ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30"
+}
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c \u0e04\u0e2d\u0e25\u0e31\u0e21\u0e19\u0e4c 'drink' \u0e44\u0e21\u0e48\u0e21\u0e35\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e10\u0e32\u0e19\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"👂 การฟังและเข้าใจความต้องการ","blood_type":"🅱️ B, 🆎 AB","pet":"🐦 นก","drink":"💧 น้ำ","exercise":"🏋️‍♀️ ฟิตเนส, 🧘‍♀️ โยคะ"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83d\udc42 \u0e01\u0e32\u0e23\u0e1f\u0e31\u0e07\u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+    "blood_type": "\ud83c\udd71\ufe0f B, \ud83c\udd8e AB",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a, \ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30"
+}
+🛠️ Debugging Response: {"success":false,"message":"\u274c \u274c \u0e04\u0e2d\u0e25\u0e31\u0e21\u0e19\u0e4c 'drink' \u0e44\u0e21\u0e48\u0e21\u0e35\u0e2d\u0e22\u0e39\u0e48\u0e43\u0e19\u0e10\u0e32\u0e19\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♍ กันย์","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🆎 AB","pet":"😸 แมว","drink":"🍵 ชา","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264d \u0e01\u0e31\u0e19\u0e22\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♍ กันย์","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🆎 AB","pet":"😸 แมว","drink":"🍵 ชา","exercise":"🚴‍♀️ ปั่นจักรยาน"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264d \u0e01\u0e31\u0e19\u0e22\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🏋️‍♀️ ฟิตเนส"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🆎 AB","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🏋️‍♀️ ฟิตเนส"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ, 🌹 สร้างความโรแมนติก","blood_type":"🅾️ O","pet":"🐦 นก","drink":"❓ อื่นๆ","exercise":"🏃‍♂️ วิ่ง"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46, \ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07"
+}
+📩 RAW JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ, 🌹 สร้างความโรแมนติก","blood_type":"🅾️ O","pet":"🐦 นก","drink":"❓ อื่นๆ","exercise":"🏃‍♂️ วิ่ง"}
+📊 JSON ที่ถอดรหัสแล้ว: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46, \ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\udc26 \u0e19\u0e01",
+    "drink": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07"
+}
+📩 JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🆎 AB","pet":"🐇 กระต่าย","drink":"💧 น้ำ","exercise":"🏃‍♂️ วิ่ง"}
+📩 JSON ที่ได้รับ: {"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🆎 AB","pet":"🐇 กระต่าย","drink":"💧 น้ำ","exercise":"🏃‍♂️ วิ่ง"}
+📊 JSON Decode: Array
+(
+    [goal] => ไม่มีข้อมูล
+    [zodiac] => ♊ เมถุน
+    [love_expression] => 🌹 สร้างความโรแมนติก
+    [blood_type] => 🆎 AB
+    [pet] => 🐇 กระต่าย
+    [drink] => 💧 น้ำ
+    [exercise] => 🏃‍♂️ วิ่ง
+)
+
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46"
+}
+🔍 Debugging Data: {
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\u2753 \u0e2d\u0e37\u0e48\u0e19\u0e46"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "drinking": null,
+    "education": null,
+    "family_plan": null
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "drinking": null,
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "drinking": null,
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "education": "\ud83d\udcda \u0e21\u0e31\u0e18\u0e22\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32\u0e15\u0e2d\u0e19\u0e1b\u0e25\u0e32\u0e22",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "drinking": null,
+    "education": null,
+    "family_plan": null
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264d \u0e01\u0e31\u0e19\u0e22\u0e4c",
+    "love_expression": "\ud83e\udd2b \u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e41\u0e1a\u0e1a\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e49\u0e04\u0e33\u0e1e\u0e39\u0e14",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "drinking": null,
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66"
+}
+🔍 Debugging Data: {
+    "goal": null,
+    "zodiac": "\u264d \u0e01\u0e31\u0e19\u0e22\u0e4c",
+    "love_expression": "\ud83e\udd2b \u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e41\u0e1a\u0e1a\u0e44\u0e21\u0e48\u0e43\u0e0a\u0e49\u0e04\u0e33\u0e1e\u0e39\u0e14",
+    "blood_type": "\ud83c\udd7e\ufe0f O",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f \u0e1f\u0e34\u0e15\u0e40\u0e19\u0e2a",
+    "drinking": null,
+    "education": null,
+    "family_plan": null
+}
+{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e23\u0e31\u0e01\u0e08\u0e23\u0e34\u0e07\u0e2b\u0e27\u0e31\u0e07\u0e41\u0e15\u0e48\u0e07 \u2764\ufe0f",
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd8e AB",
+    "pets": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drinking": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e04\u0e23\u0e1a 2 \u0e40\u0e02\u0e47\u0e21",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": 0,
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "34",
+    "age_range_max": 60,
+    "travel_world": 0
+}{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e23\u0e31\u0e01\u0e08\u0e23\u0e34\u0e07\u0e2b\u0e27\u0e31\u0e07\u0e41\u0e15\u0e48\u0e07 \u2764\ufe0f",
+    "zodiac": "\u264e \u0e15\u0e38\u0e25\u0e22\u0e4c",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e04\u0e23\u0e1a 2 \u0e40\u0e02\u0e47\u0e21",
+    "love_expression": "\ud83d\udc91 \u0e40\u0e04\u0e25\u0e47\u0e14\u0e25\u0e31\u0e1a\u0e01\u0e32\u0e23\u0e14\u0e39\u0e41\u0e25\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e4c",
+    "blood_type": "\ud83c\udd8e AB",
+    "drink": null,
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": "0",
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "34",
+    "age_range_max": "60",
+    "travel_world": "0",
+    "pet": null
+}{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e04\u0e1a\u0e2a\u0e1a\u0e32\u0e22\u0e46 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e04\u0e25\u0e34\u0e01\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07 \ud83e\udd42",
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "love_expression": "\ud83d\udc42 \u0e01\u0e32\u0e23\u0e1f\u0e31\u0e07\u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+    "blood_type": "\ud83c\udd8e AB",
+    "pets": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drinking": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30",
+    "languages": "\u0e08\u0e35\u0e19",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14",
+    "covid_vaccine": "\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": 0,
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "0",
+    "age_range_max": 60,
+    "travel_world": 0
+}{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e04\u0e1a\u0e2a\u0e1a\u0e32\u0e22\u0e46 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e04\u0e25\u0e34\u0e01\u0e08\u0e23\u0e34\u0e07\u0e08\u0e31\u0e07 \ud83e\udd42",
+    "zodiac": "\u264c \u0e2a\u0e34\u0e07\u0e2b\u0e4c",
+    "languages": "\u0e08\u0e35\u0e19",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14",
+    "covid_vaccine": "\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e40\u0e15\u0e34\u0e21",
+    "love_expression": "\ud83d\udc42 \u0e01\u0e32\u0e23\u0e1f\u0e31\u0e07\u0e41\u0e25\u0e30\u0e40\u0e02\u0e49\u0e32\u0e43\u0e08\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23",
+    "blood_type": "\ud83c\udd8e AB",
+    "drink": null,
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": "0",
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "0",
+    "age_range_max": "60",
+    "travel_world": "0",
+    "pet": null
+}{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e04\u0e1a\u0e01\u0e31\u0e19\u0e22\u0e32\u0e27\u0e46 \ud83d\ude0d",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "love_expression": "\ud83d\udcac \u0e20\u0e32\u0e29\u0e32\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "pets": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drinking": "\ud83d\udca7 \u0e19\u0e49\u0e33",
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83c\udf93 \u0e1b\u0e23\u0e34\u0e0d\u0e0d\u0e32\u0e15\u0e23\u0e35",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": 0,
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "0",
+    "age_range_max": 60,
+    "travel_world": 0
+}{
+    "goal": "\u0e2b\u0e32\u0e04\u0e19\u0e04\u0e1a\u0e01\u0e31\u0e19\u0e22\u0e32\u0e27\u0e46 \ud83d\ude0d",
+    "zodiac": "\u264b \u0e01\u0e23\u0e01\u0e0e",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83c\udf93 \u0e1b\u0e23\u0e34\u0e0d\u0e0d\u0e32\u0e15\u0e23\u0e35",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19",
+    "love_expression": "\ud83d\udcac \u0e20\u0e32\u0e29\u0e32\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01",
+    "blood_type": "\ud83c\udd8e AB",
+    "drink": null,
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30",
+    "location": "\u0e44\u0e21\u0e48\u0e23\u0e30\u0e1a\u0e38",
+    "nearby_only": "0",
+    "interest": "\u0e1c\u0e39\u0e49\u0e2b\u0e0d\u0e34\u0e07",
+    "age_range_min": "0",
+    "age_range_max": "60",
+    "travel_world": "0",
+    "pet": null
+}

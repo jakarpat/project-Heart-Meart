@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://tinder.com/static/build/ac062d1b428513b9c13d11026d330e34.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.modal {
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    color: #ff3b5c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-google { background-color: #4285F4; color: white; }
+.btn-line { background-color: #00B900; color: white; }
+.btn-facebook { background-color: #3b5998; color: white; }
+.btn-phone { background-color: #333; color: white; }
+
+.help-text {
+    color: #4285F4;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.download-text {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.app-stores {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.app-stores img {
+    height: 30px;
+    margin: 0 5px;
+}
+.btn-phone {
+    background-color: #ffffff; /* เปลี่ยนสีพื้นหลังเป็นสีขาว */
+    color: #000000; /* เปลี่ยนสีตัวอักษรเป็นสีดำ */
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ล็อกอินด้วย Google - Heart Meart</title>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js"></script>
+</head>
+<body>
+    <h2>🔑 ล็อกอินด้วย Google</h2>
+    <button id="login-btn">เข้าสู่ระบบด้วย Google</button> <!-- เปลี่ยนจาก onclick เป็น Event Listener -->
+    <p id="user-info"></p>
+    <p id="error-message" style="color: red;"></p> <!-- 🔥 แสดง Error บนหน้าเว็บ -->
+
+    <script>
+        console.log("🔥 โหลดสคริปต์สำเร็จ!"); // ตรวจสอบว่าโค้ดโหลดหรือยัง
+
+        // ตั้งค่า Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBsdF2lT8Bb2khfRpA3jgHpUYebGjnc4oI",
+            authDomain: "jakarpat-58177.firebaseapp.com",
+            projectId: "jakarpat-58177",
+            storageBucket: "jakarpat-58177.appspot.com",
+            messagingSenderId: "995465983401",
+            appId: "1:995465983401:web:964719c46dc0acd5d400b8",
+            measurementId: "G-3WSCCV625F"
+        };
+
+        // เริ่มต้น Firebase
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+
+        console.log("✅ Firebase ถูกโหลดแล้ว:", firebase);
+        console.log("✅ Firebase Auth:", firebase.auth);
+
+        // ✅ ตรวจสอบว่าปุ่มกดทำงานไหม
+        document.getElementById("login-btn").addEventListener("click", function() {
+            console.log("👉 ปุ่มถูกคลิกแล้ว! เริ่มเข้าสู่ระบบ...");
+            signInWithGoogle();
+        });
+
+        // ฟังก์ชันล็อกอินผ่าน Google
+        function signInWithGoogle() {
+            console.log("🔹 signInWithGoogle() ถูกเรียก...");
+            const provider = new firebase.auth.GoogleAuthProvider();
+
+            auth.signInWithPopup(provider)
+                .then((result) => {
+                    console.log("✅ ล็อกอินสำเร็จ:", result.user);
+                    const user = result.user;
+                    document.getElementById("user-info").innerHTML = `✅ ยินดีต้อนรับ, ${user.displayName} (${user.email})`;
+                    document.getElementById("error-message").innerHTML = ""; // เคลียร์ข้อความ Error
+                })
+                .catch((error) => {
+                    console.error("❌ เกิดข้อผิดพลาด:", error);
+                    document.getElementById("error-message").innerHTML = `❌ Error: ${error.message}`;
+                    alert("เกิดข้อผิดพลาด: " + error.message);
+                });
+        }
+    </script>
+</body>
+</html>

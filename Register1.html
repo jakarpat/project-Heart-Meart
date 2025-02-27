@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สร้างบัญชี</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* ✅ ตั้งค่าพื้นฐาน */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('uploads/96.webp') no-repeat center center fixed;
+    background-size: cover;
+    animation: moveBackground 10s infinite alternate ease-in-out, zoomEffect 15s infinite alternate ease-in-out;
+    color: white;
+    overflow-x: hidden; /* ✅ ป้องกันการเลื่อนแนวนอน */
+}
+
+/* ✅ ทำให้พื้นหลังเลื่อนขึ้น-ลงแบบ Smooth */
+@keyframes moveBackground {
+    0% { background-position: center top; }
+    50% { background-position: center center; }
+    100% { background-position: center bottom; }
+}
+
+/* ✅ ทำให้พื้นหลังซูมเข้า-ออกเบาๆ */
+@keyframes zoomEffect {
+    0% { background-size: 100%; }
+    100% { background-size: 105%; }
+}
+
+        /* ✅ ปรับพื้นหลังของ Header ให้เข้ากับธีม */
+header {
+  
+  padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(255, 0, 255, 0.4); /* ✅ เพิ่มเงาแบบม่วงนีออน */
+  border-bottom: 4px solid rgba(255, 105, 180, 0.5); /* ✅ ขอบล่างสีชมพู */
+}
+
+        
+/* ✅ จัดทุกอย่างให้อยู่กลาง */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* ✅ ปรับขนาดและตำแหน่งของโลโก้ */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
+
+.logo-container h1 {
+    font-size: 30px;
+    color: #ff6b81;
+    white-space: nowrap;
+}
+
+/* ✅ ปรับเมนูให้เลื่อนไปทางซ้ายอีกนิด */
+nav {
+    flex-grow: 1;
+    text-align: center; /* ✅ จัดให้อยู่ตรงกลาง */
+    margin-left: -220px; /* ✅ เลื่อนเมนูไปทางซ้าย */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* ✅ เมนูอยู่กึ่งกลาง */
+    align-items: center;
+    gap: 20px;
+}
+
+/* ✅ บังคับให้ตัวอักษรเป็นสีขาว */
+nav ul li a {
+    color: white !important; /* ✅ บังคับให้เป็นสีขาว */
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8); /* ✅ เพิ่มเงาให้มองเห็นชัดขึ้น */
+    opacity: 1 !important; /* ✅ ป้องกันความโปร่งแสง */
+    filter: none !important; /* ✅ ปิดการใช้ filter ที่อาจมีผลต่อสี */
+}
+
+
+/* ✅ เพิ่มเส้นไฮไลท์ด้านล่างเมื่อโฮเวอร์ */
+nav ul li a {
+    position: relative; /* ✅ ตั้งค่า relative เพื่อให้ pseudo-element อยู่ภายใน */
+}
+
+/* ✅ เส้นไฮไลท์ */
+nav ul li a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: linear-gradient(90deg, #ff416c, #ff6b81);
+    width: 0;
+    position: absolute;
+    bottom: -5px; /* ✅ ควบคุมให้เส้นอยู่ด้านล่างของตัวอักษร */
+    left: 50%;
+    transform: translateX(-50%); /* ✅ จัดให้อยู่กึ่งกลางของตัวอักษร */
+    transition: width 0.3s ease-in-out;
+}
+
+/* ✅ ทำให้เส้นขยายเมื่อโฮเวอร์ */
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* ✅ ทำให้ปุ่มภาษาและ Login อยู่ขวาสุด */
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* ✅ เพิ่มระยะห่างระหว่างปุ่ม */
+    white-space: nowrap;
+    position: absolute;
+    right: 24px; /* ✅ ให้ปุ่มอยู่ขวาสุด */
+}
+
+/* ✅ ปรับขนาดปุ่ม "ภาษา" และ "Login" ให้ใหญ่ขึ้น */
+.auth button {
+    background: linear-gradient(45deg, #ff416c, #ff6b81);
+    color: white;
+    border: none;
+    padding: 14px 40px; /* ✅ เพิ่มขนาด Padding */
+    border-radius: 30px; /* ✅ ปรับความโค้งมน */
+    font-size: 26px; /* ✅ เพิ่มขนาดตัวอักษร */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(255, 88, 100, 0.5);
+}
+
+/* ✅ เอฟเฟกต์เมื่อโฮเวอร์ */
+.auth button:hover {
+    background: linear-gradient(45deg, #ff6b81, #ff416c);
+    transform: scale(1.1); /* ✅ เพิ่มขนาดตอนโฮเวอร์ */
+    box-shadow: 0 10px 25px rgba(255, 88, 100, 0.6);
+}
+
+
+
+      /* ✅ ปรับให้โมดอลอยู่ตรงกลางทั้งแนวตั้งและแนวนอน */
+.modal {
+    background: rgba(0, 0, 0, 0.85);  /* ✅ เปลี่ยนพื้นหลังให้เป็นสีดำโปร่งแสง */
+    padding: 40px;
+    border-radius: 20px;  /* ✅ เพิ่มความโค้งมนให้ดูหรูหรา */
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.6); /* ✅ เพิ่มเงาสีชมพูให้มีมิติ */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    
+    /* ✅ ทำให้โมดอลอยู่ตรงกลางจอ */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* ✅ เพิ่มเอฟเฟกต์เรืองแสง */
+    animation: glowEffect 1.5s infinite alternate ease-in-out;
+}
+
+/* ✅ เอฟเฟกต์ให้โมดอลเรืองแสง */
+@keyframes glowEffect {
+    0% { box-shadow: 0 0 20px rgba(255, 105, 180, 0.4); }
+    100% { box-shadow: 0 0 35px rgba(255, 105, 180, 0.8); }
+}
+
+/* ✅ ปรับขนาดฟอนต์ของหัวข้อ */
+.modal h2 {
+    color: #ff6b81; /* ✅ เปลี่ยนสีตัวอักษรให้เข้ากับธีม */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-shadow: 0 0 10px rgba(255, 99, 132, 0.8);
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: background-color 0.3s;
+    text-decoration: none; /* ✅ เอาเส้นใต้ข้อความออก */
+    box-shadow: none; /* ✅ เอาเงาออกจากปุ่ม */
+}
+
+/* ✅ ปรับสีปุ่มให้ดูทันสมัย */
+.btn-google {
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+}
+
+.btn-phone {
+    background: linear-gradient(90deg, #007bff, #34b7f1);
+    box-shadow: 0 5px 15px rgba(52, 183, 241, 0.4);
+}
+
+/* ✅ เอฟเฟกต์เมื่อโฮเวอร์ */
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* ✅ ทำให้ข้อความช่วยเหลืออยู่ตรงกลาง */
+.help-text {
+    margin-top: 20px;
+    color: #ff9f9f;
+    font-size: 18px;
+    font-style: italic;
+    text-shadow: 0 0 5px rgba(255, 99, 132, 0.5);
+}
+
+/* ✅ ปรับให้โมดอลไม่ล้นหน้าจอบนอุปกรณ์มือถือ */
+@media (max-width: 768px) {
+    .modal {
+        width: 90%;
+        max-width: 380px;
+    }
+
+    .modal h2 {
+        font-size: 28px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 14px;
+    }
+}
+    </style>
+</head>
+<body>
+     <!-- ✅ HEADER -->
+     <header>
+        <div class="header-container">
+            <!-- โลโก้และชื่อ -->
+            <div class="logo-container">
+                <a href="index.html">
+                <img src="/Project/uploads/1234.png" alt="User Profile Image" class="profile-image"></a>
+                <h1>Heart Meart</h1>
+            </div>
+    
+            <!-- เมนูอยู่ตรงกลาง -->
+            <nav>
+                <ul>
+                    <li><a href="view.php" data-english="Review" data-thai="รีวิว">รีวิว</a></li>
+                    <li><a href="Page.html" data-english="Learn More" data-thai="เรียนรู้เพิ่มเติม">เรียนรู้เพิ่มเติม</a></li>
+                    <li><a href="contact.html" data-english="Contact" data-thai="ติดต่อ">ติดต่อ</a></li>
+                    <li><a href="Dating.html" data-english="Safety" data-thai="ความปลอดภัย">ความปลอดภัย</a></li>
+                </ul>
+            </nav>
+    
+            <!-- ปุ่มภาษาและ Login อยู่ขวาสุด -->
+            <div class="auth">
+                <button class="language-btn" onclick="changeLanguage()">ภาษา</button>
+                <button data-english="Login" data-thai="เข้าสู่ระบบ" onclick="window.location.href='register_index.php'">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal">
+        <h2>สร้างบัญชี</h2>
+        <a href="googlelogin.html"><button class="btn btn-google">ดำเนินการต่อโดยใช้ Google</button></a>
+        <a href="register_2.html"><button class="btn btn-phone">เข้าสู่ระบบด้วยการสมัครสมาชิก</button></a>
+        <a href="phone_login.html"><button class="btn btn-phone">เข้าสู่ระบบด้วยหมายเลขโทรศัพท์</button></a>
+    </div>
+
+    
+    <script>
+        function changeLanguage() {
+     const currentLang = document.body.classList.contains('english') ? 'thai' : 'english';
+     document.body.classList.toggle('english');
+     document.body.classList.toggle('thai');
+     
+     const elements = document.querySelectorAll('[data-english], [data-thai]');
+     elements.forEach(el => {
+         const text = el.getAttribute('data-' + currentLang);
+         if (text) {
+             el.textContent = text;
+         }
+     });
+ 
+     // ✅ ทำให้ปุ่มภาษาและปุ่มเข้าสู่ระบบมีขนาดเท่ากันเสมอ
+     const langButton = document.querySelector('.language-btn');
+     const loginButton = document.querySelector('.login-btn');
+ 
+     if (langButton && loginButton) {
+         langButton.style.width = '140px';
+         loginButton.style.width = '140px';
+     }
+ }
+ 
+     </script>
+ 
+</body>
+</html>

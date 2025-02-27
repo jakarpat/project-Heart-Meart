@@ -1,0 +1,129 @@
+/* ✅ รีเซ็ตพื้นหลังของ body และทำให้เว็บไซต์สว่างขึ้น */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff !important; /* ✅ เปลี่ยนพื้นหลังเป็นสีขาว */
+    color: #ff0000; /* ✅ ทำให้สีตัวอักษรเข้มขึ้น */
+}
+
+/* ✅ ปรับ header ให้ดูสะอาดขึ้น */
+header {
+    background-color: transparent !important; /* ✅ ลบพื้นหลังดำของ Header */
+    color: rgb(255, 0, 0) !important; /* ✅ เปลี่ยนสีตัวอักษรเป็นดำ */
+    padding: 10px 0;
+    position: relative;
+    z-index: 3;
+}
+
+/* ✅ ทำให้ navigation menu อ่านง่ายขึ้น */
+header nav ul li a {
+    color: #333 !important; /* ✅ เปลี่ยนเป็นสีดำ */
+    font-size: 24px; 
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff69b4 !important; /* ✅ เปลี่ยนเป็นสีชมพูอ่อนเมื่อ hover */
+}
+
+/* ✅ ปรับ Hero Section ให้ดูเด่นขึ้น */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: transparent !important; /* ✅ ลบพื้นหลังดำจาง ๆ */
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-weight: bold;
+    border: 2px solid #ff69b4; /* ✅ ใช้สีชมพูให้เข้ากับธีม */
+    padding: 10px;
+    border-radius: 10px;
+    color: #ff69b4;
+}
+
+.hero button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero button:hover {
+    background-color: #ff85c1;
+}
+
+/* ✅ ลบพื้นหลังสีดำจาง ๆ ออกจากส่วนหลักของเว็บ */
+main::before {
+    content: none !important; /* ✅ ลบพื้นหลังสีดำจาง */
+}
+
+/* ✅ ทำให้ `.container` ไม่มีพื้นหลังดำ */
+.container {
+    background-color: transparent !important;
+}
+
+/* ✅ ปรับ Footer ให้ดูสะอาดขึ้น */
+footer {
+    background-color: #ffffff !important; /* ✅ เปลี่ยนพื้นหลังเป็นขาว */
+    color: #333 !important; /* ✅ ทำให้สีตัวอักษรอ่านง่าย */
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ddd; /* ✅ เพิ่มเส้นแบ่ง */
+}
+
+/* ✅ ปรับ `.footer-links` ให้สะอาดขึ้น */
+.footer-links {
+    background: white !important;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: none !important; /* ✅ ลบเงาดำ */
+}
+
+/* ✅ ทำให้ส่วนของ Review Section ดูสว่างขึ้น */
+.reviews {
+    background: white !important;
+    box-shadow: none !important; /* ✅ ลบเงาดำ */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.review {
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 20px;
+    color: #333 !important; /* ✅ ทำให้ตัวอักษรเข้มขึ้น */
+    border: 1px solid #ddd;
+}
+
+/* ✅ ปรับขนาดโลโก้ */
+.logo-img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.1);
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(255, 105, 180, 0.4);
+}
+
+/* ✅ ปรับให้แสดงผลดีขึ้นบนมือถือ */
+@media screen and (max-width: 768px) {
+    .reviews {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Meart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Prompt', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 26px;
+            color: #ff5864;
+            margin: 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 60px;
+            margin-right: 5px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 25px; /* เพิ่มระยะห่างระหว่างเมนู */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px; /* เพิ่มขนาดตัวอักษรของเมนู */
+            font-weight: 600; /* เพิ่มน้ำหนักตัวอักษร */
+            padding: 10px 15px; /* เพิ่มพื้นที่ภายในเมนู */
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff5864;
+            background-color: #f2f2f2; /* เพิ่มเอฟเฟกต์เมื่อชี้เมาส์ */
+            border-radius: 10px; /* เพิ่มความโค้งมน */
+        }
+
+        .auth {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .auth button {
+    border: none;
+    border-radius: 30px; /* เพิ่มความโค้งมน */
+    padding: 10px 20px; /* เพิ่มขนาดพื้นที่ภายในปุ่ม */
+    cursor: pointer;
+    font-size: 16px; /* เพิ่มขนาดตัวอักษร */
+    font-weight: 600; /* เพิ่มน้ำหนักตัวอักษร */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.auth .language-btn {
+    background-color: #eeeeee;
+}
+
+.auth .language-btn:hover {
+    background-color: #dddddd;
+    transform: scale(1.05); /* เพิ่มเอฟเฟกต์ขยายเมื่อชี้เมาส์ */
+}
+
+.auth .login-btn {
+    background-color: #ff5864;
+    color: white;
+}
+
+.auth .login-btn:hover {
+    background-color: #e14d5a;
+    transform: scale(1.05); /* เพิ่มเอฟเฟกต์ขยายเมื่อชี้เมาส์ */
+}
+
+
+        .auth .login-btn {
+            background-color: #ff5864;
+            color: white;
+        }
+
+        .auth .login-btn:hover {
+            background-color: #e14d5a;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 40px 20px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: none;
+            background-color: transparent;
+            border: none;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: #333;
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #222;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .header button {
+            background-color: #ff5864;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .header button:hover {
+            background-color: #e14d5a;
+            transform: scale(1.1);
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 0 20px;
+        }
+
+        .card {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            font-size: 24px;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .card img {
+    width: 100%; /* ให้ภาพขยายเต็มความกว้างของการ์ด */
+    height: auto; /* ปรับความสูงตามสัดส่วนของภาพ */
+    border: 5px solid white; /* เพิ่มกรอบสีขาว */
+    border-radius: 10px; /* เพิ่มความโค้งมน */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ภาพ */
+}
+
+
+        
+/* Dropdown menu */
+nav ul li ul {
+    display: none; /* ซ่อน dropdown menu ไว้ก่อน */
+    position: absolute; /* ตำแหน่ง dropdown menu ใต้ปุ่มเมนู */
+    top: 100%; /* เลื่อน dropdown menu ลงมาด้านล่าง */
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.5); /* พื้นหลังจางลง (0.8 คือความโปร่งใส) */
+    padding: 0;
+    margin: 0;
+    list-style: none; /* เอาสัญลักษณ์ bullet point ออก */
+    z-index: 1000; /* ทำให้ dropdown อยู่ด้านหน้า */
+}
+
+
+nav ul li ul li {
+    width: 200px; /* ความกว้างของแต่ละตัวเลือกใน dropdown */
+}
+
+nav ul li ul li a {
+    padding: 10px 15px; /* ระยะห่างภายในแต่ละตัวเลือก */
+    display: block; /* ทำให้เป็น block เพื่อครอบคลุมทั้งหมด */
+    color: white; /* สีตัวอักษร */
+    text-decoration: none; /* เอาเส้นใต้ตัวอักษรออก */
+    font-size: 18px; /* ขนาดตัวอักษรใน dropdown menu */
+}
+
+nav ul li ul li a:hover {
+    background-color: #555; /* เปลี่ยนสีพื้นหลังเมื่อวางเมาส์บนตัวเลือก */
+}
+
+/* แสดง dropdown menu เมื่อ hover */
+nav ul li:hover ul {
+    display: block; /* แสดง dropdown menu */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="/Project/uploads/1234.png" alt="Logo"></a>
+            <h1>Heart Meart</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="view.php" data-english="review" data-thai="รีวิว">รีวิว</a>
+                    
+                </li>
+                <li><a href="Page.html" data-english="Learn More" data-thai="เรียนรู้เพิ่มเติม">เรียนรู้เพิ่มเติม</a></li>
+                <li><a href="contact.html" data-english="Contact" data-thai="ติดต่อ">บริการช่วยเหลือ</a></li>
+                <li><a href="Dating.html" data-english="Safety" data-thai="ความปลอดภัย">ความปลอดภัย</a></li>
+            </ul>
+        </nav>
+         <div class="auth">
+                <button class="language-btn" onclick="changeLanguage()">ภาษา</button>
+                <button data-english="Login" data-thai="เข้าสู่ระบบ" onclick="window.location.href='register_index.php'">Login</button>
+            </div>
+    </header>
+
+    <div class="header">
+        <h1>ทำไมคุณถึงควรเลือกแอพหาคู่อย่าง Heart Meart ?</h1>
+        <p>
+            มีแอพหาคู่ให้คุณเลือกใช้เต็มไปหมด ไม่ว่าจะเป็น โอมิ (Omi), บาดู (Badoo), บัมเบิล (Bumble), คู่อัพ (Kooup), บีแชท (BeeChat), Jaumo หรืออีกเพียบ ไม่ว่าจะตามหารักแท้ หาคู่เดท หรือแค่อยากหาคนคุยชิลล์ๆ ก็ต้องมีแอพคู่ใจที่ช่วยคุณตามหาคนที่ใช่ ฟันธงยากนะว่าแอพไหนดีที่สุด — แต่ทีมงาน Heart Meart จะช่วยคุณตามหาคนๆ นั้นด้วยฟีเจอร์ที่จะทำให้ฝันคุณเป็นจริง เดทออนไลน์ได้ง่ายกว่าเดิม
+            <p>
+            เราจะไม่บอกว่าเราคือแอพฟรีที่ดีที่สุด เรื่องนั้นเราให้คุณตัดสินใจเอง — มาดูกันดีกว่าว่า Heart Meart มีอะไรบ้าง
+            </p>
+        </p>
+        <button onclick="window.location.href='index.html';">ลองเลย</button>
+
+    </div>
+
+    <div class="section">
+        <div class="card">
+            <h2>หาคนที่มี Passion เหมือนกัน</h2>
+            <p>ถ้ารู้ว่าชอบอะไรคล้ายกัน คุณกับคู่ Match จะได้สิ่งที่น่าค้นหา</p>
+            <img src="uploads/ppo.png" alt="Passion">
+            <h2>ยืนยันรูปภาพบน Heart Meart กันเถอะ</h2>
+    <p>เราให้อุ่นใจยิ่งขึ้นด้วยรูปภาพเพื่อพิสูจน์ว่าคุณเป็นคนเดียวกันในรูปจริงๆ ถ้าคุณเห็นใครบน Heart Meart มีเครื่องหมายถูกสีน้ำเงินแล้วก็มั่นใจได้เลยว่า ตัวจริงแน่นอน</p>
+    <h2>ดูว่าที่คู่ Match ระดับ Gold ของคุณ</h2>
+    <p>จะเห็นทั้งหมด จะได้ไม่เสียเวลา เรารักษาคุณเสมอ ถ้าคุณเป็นสมาชิก Heart Meart Gold คุณจะได้เห็นว่าใคร Like คุณบ้าง ช่วยประหยัดเวลาได้เยอะ จะได้เอาเวลาไปทำอย่างอื่นที่จำเป็น</p>
+    <h2>ให้ทุก Like ของคุณไม่เสียเปล่า</h2>
+    <p>พิเศษเฉพาะสมาชิก Heart Meart Platinum ได้สิทธิ Priority Like ให้คนที่คุณ Like ไปเห็นโปรไฟล์ของคุณเร็วขึ้น</p>
+    <img src="uploads/123.png" alt="Passion">
+        </div>
+        <div class="card">
+            <h2>เราพร้อมไปกับคุณได้ทุกที่</h2>
+            <p>ถ้าคุณอยากเจอคนในท้องที่ในทุกๆ ที่ที่คุณไป ไม่ว่าจะเป็นนิวยอร์กหรือโซล เรามีแอพที่เหมาะสุดๆ — ก็ Heart Meart ไงล่ะ ไม่ว่าจะใกล้หรือไกล ก็แชทกับทุกคนได้ทุกที่ด้วยฟีเจอร์ที่ช่วยให้คุณ Match ได้กับทุกคนทั่วโลก Heart Meart พร้อมเป็นเพื่อนคู่ใจไปกับคุณทุกที่ เราพร้อมไปกับคุณกว่า 190 ประเทศทั่วโลก แม้แต่เพื่อนเราอย่าง OKCupid กับ Plenty of Fish ยังไม่กล้าเคลมเลยนะ</p>
+            <h2>เดทได้ปลอดภัยกว่าด้วยวิดีโอคอล</h2>
+            <p>เราทุกคนต่างอยากเจอคนที่ตัวเป็นๆ จะเนียนแล้ว แต่การเดทท่ามกลางยุคโควิดที่ต้องมีการเว้นระยะห่างในสังคมอย่างน้อย 2 เมตรยังไม่พอ วิดีโอคอลคือคำตอบ ให้คุณคุยกับคู่ Match ผ่านวิดีโอคอลได้ง่ายๆ จะได้สามารถสัมผัสกับเบาะแสของโลกออนไลน์ไปพร้อมๆ กัน</p>
+            <h2>เชื่อมต่อกับทุกคนจากทั่วทุกมุมโลก</h2>
+            <p>จะใกล้หรือไกลก็ไม่หวั่น แชทกับคนได้ทั่วโลกด้วยฟีเจอร์ Passport™ แล้วเพียงแค่สมัคร Heart Meart Plus® ก็ Match กับคนได้ทุกที่ทั่วโลก</p>
+            <h2>Match ง่ายๆ แค่ปลายนิ้ว</h2>
+            <p>หนึ่งในเรื่องที่ผู้ใหญ่หลายคน คงติดสินใจยากเกี่ยวกับแอพหาคู่ คือจะใช้เฉพาะกลุ่มหรือเลือกที่เหมาะสมสุดในตลาด ฟีเจอร์ที่โดดเด่นไม่ใช่แค่ให้ได้ Match แต่ยังมีความสนุกและหลากหลายไม่ว่าจะโอมิ (Omi), บาดู (Badoo), บัมเบิล (Bumble) หรืออื่นๆ คุณก็ต้องการแอพที่ครอบคลุมทุกพื้นที่ที่คุณอยากได้ ลองเข้าใช้งาน Heart Meart ที่ให้ Match กับคนที่เหมาะสมกว่าใครได้ในนิ้วเดียว</p>
+            <h2>เราต้อนรับทุกคนเสมอ ไม่มีแบ่งแยก</h2>
+            <p>เพราะเราไม่ชอบการแบ่งพวกผู้คนออกจากกัน เราเลยออกแบบแอพของเราให้คุณได้มีประสบการณ์เดทกับคนใหม่ๆ แบบที่คุณไม่เคยเจอ ต่างจากเว็บอย่างบัมเบิล (Bumble) เพราะ Tinder ไม่กรองคนจากความสูง การศึกษา เชื้อชาติ หรือศาสนา เพราะข้อมูลพวกนี้ไม่สามารถบ่งบอกถึงตัวตนความเป็นมนุษย์ของใครได้ เราเชื่อว่าทุกคนควรมีสิทธิ์เลือกและถูกเลือก และจะจีบใครก่อนก็ได้ไม่ว่าเค้าจะเป็นใครมาจากไหน แอพของเราจะแสดงผู้คนทุกแบบให้คุณเห็น แล้วให้คุณเป็นคนตัดสินใจเองว่าอยากจะแชทกับใคร</p>
+            <img src="uploads/120.png" alt="Passion">
+        </div>
+        
+        
+    </div>
+
+    
+    <script>
+        function changeLanguage() {
+            const currentLang = document.body.classList.contains('english') ? 'thai' : 'english';
+            document.body.classList.toggle('english');
+            document.body.classList.toggle('thai');
+            
+            const elements = document.querySelectorAll('[data-english], [data-thai]');
+            elements.forEach(el => {
+                const text = el.getAttribute('data-' + currentLang);
+                if (text) {
+                    el.textContent = text;
+                }
+            });
+        }
+    </script>
+</body>
+</html>
