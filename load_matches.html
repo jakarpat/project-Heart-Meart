@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Match List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>User 1 (ID)</th>
+            <th>User 1 Name</th>
+            <th>User 2 (ID)</th>
+            <th>User 2 Name</th>
+            <th>Matched At</th>
+        </tr>
+    </thead>
+    <tbody id="matchTable">
+        <!-- ข้อมูลจะถูกโหลดจาก AJAX -->
+    </tbody>
+</table>
+<script>
+    fetch('load_matches.php')
+    .then(response => response.json())
+    .then(data => {
+        console.log("📢 Data received:", data); // ตรวจสอบข้อมูล
+        let tableBody = document.getElementById("matchTable");
+
+        if (data.length > 0 && !data.message) {
+            let index = 1;
+            data.forEach(match => {
+                let row = `<tr>
+                    <td>${index}</td>
+                    <td>${match.user1}</td>
+                    <td>${match.user1_name}</td>
+                    <td>${match.user2}</td>
+                    <td>${match.user2_name}</td>
+                    <td>${match.matched_at}</td>
+                </tr>`;
+                tableBody.innerHTML += row;
+                index++;
+            });
+        } else {
+            tableBody.innerHTML = "<tr><td colspan='6' style='text-align:center;'>⚠️ ไม่มีข้อมูลการแมตช์</td></tr>";
+        }
+    })
+    .catch(error => console.error("❌ Error fetching match data:", error));
+
+</script>
+
+</body>
+</html>

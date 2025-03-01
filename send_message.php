@@ -1,13 +1,26 @@
 <?php
 session_start();
 require_once 'connect.php';
+$conn = getDatabaseConnection();
 
 if (!isset($_SESSION['user_id']) || !isset($_POST['match_id']) || !isset($_POST['message'])) {
     echo json_encode(["success" => false, "error" => "Invalid Request"]);
     exit();
 }
-
-$user_id = $_SESSION['user_id'];
+$sql_user = "SELECT id FROM profile1 WHERE email = ?";
+$stmt_user = $conn->prepare($sql_user);
+$stmt_user->bind_param("s", $_SESSION['email']);
+$stmt_user->execute();
+$res_user = $stmt_user->get_result();
+if ($res_user->num_rows === 0) {
+    error_log("❌ ไม่พบข้อมูลผู้ใช้");
+    echo json_encode(["success" => false, "error" => "ไม่พบข้อมูลผู้ใช้"]);
+    exit();
+}
+$user = $res_user->fetch_assoc();
+$user_id = $user['id'];
+$stmt_user->close();
+echo $user_id;
 $match_id = (int)$_POST['match_id'];
 $message = trim($_POST['message']);
 
