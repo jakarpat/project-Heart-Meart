@@ -123,6 +123,8 @@ try {
         ];
     }
 
+
+    
     $stmt_matches->close();
     $conn->close();
 
@@ -616,7 +618,244 @@ body {
       <img id="profile-image" src="default_profile.jpg" alt="Profile Picture">
       <h3 id="profile-name">ชื่อผู้ใช้, อายุ</h3>
       <p id="profile-gender">เพศ: </p>
-      <p id="profile-match" style="color: red; font-weight: bold;">💘 แมตช์ 0%</p>
+      <p id="profile-match" style="color: red; font-weight: bold;">💘 แมตช์ <span id="matchPercent">0%</span></p>
+<div id="matchDataDisplay">
+    <!-- ข้อมูลเพิ่มเติมจะแสดงที่นี่ -->
+</div>
+
+ <!-- ใส่กล่องข้อมูลโปรไฟล์ใต้ภาพ -->
+ <div class="profile-info-container">
+    <!--     <h2>ข้อมูลโปรไฟล์ของคุณ</h2>
+         <ul class="profile-info-list">
+            <li>📍 <strong>โลเคชั่น:</strong> <?= htmlspecialchars($match_data['location'] ?? 'ไม่ระบุ') ?> กม.</li>
+            <li>👶 <strong>ช่วงอายุที่สนใจ:</strong> <?= htmlspecialchars($match_data['age_range'] ?? 'ไม่ระบุ') ?></li>
+            <li>♈ <strong>ราศี:</strong> <?= htmlspecialchars($match_data['zodiac'] ?? 'ไม่ระบุ') ?></li>
+            <li>💬 <strong>ภาษา:</strong> <?= htmlspecialchars($match_data['languages'] ?? 'ไม่ระบุ') ?></li>
+            <li>🎓 <strong>การศึกษา:</strong> <?= htmlspecialchars($match_data['education'] ?? 'ไม่ระบุ') ?></li>
+            <li>👪 <strong>แผนการมีครอบครัว:</strong> <?= htmlspecialchars($match_data['family_plan'] ?? 'ไม่ระบุ') ?></li>
+            <li>🧩 <strong>วัคซีน COVID-19:</strong> <?= htmlspecialchars($match_data['covid_vaccine'] ?? 'ไม่ระบุ') ?></li>
+            <li>💖 <strong>การแสดงความรัก:</strong> <?= htmlspecialchars($match_data['love_expression'] ?? 'ไม่ระบุ') ?></li>
+            <li>💧 <strong>กรุ๊ปเลือด:</strong> <?= htmlspecialchars($match_data['blood_type'] ?? 'ไม่ระบุ') ?></li>
+            <li>🐶 <strong>สัตว์เลี้ยง:</strong> <?= htmlspecialchars($match_data['pet'] ?? 'ไม่ระบุ') ?></li>
+            <li>🍇 <strong>การดื่ม:</strong> <?= htmlspecialchars($match_data['drink'] ?? 'ไม่ระบุ') ?></li>
+            <li>🎉 <strong>การออกกำลังกาย:</strong> <?= htmlspecialchars($match_data['exercise'] ?? 'ไม่ระบุ') ?></li>
+        </ul>
+    </div>   -->
+<!-- <style>/* ---------- กล่องโปรไฟล์ (ปรับขนาดและเงา) ---------- */
+.profile-box {
+    background: #222;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+/* ---------- หัวข้อโปรไฟล์ ---------- */
+h1 {
+    color: #ffa726;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ---------- ฟอร์มแก้ไขชื่อ ---------- */
+.edit-username-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.edit-username-container label {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.username-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ffa726;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    width: 60%;
+    text-align: center;
+}
+
+/* ---------- ปุ่มบันทึกชื่อ ---------- */
+.save-username-btn {
+    background: #ffa726;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.save-username-btn:hover {
+    background: #ff8c00;
+}
+
+/* ---------- กล่องอัปโหลดรูป ---------- */
+.image-upload-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 420px;
+    margin: auto;
+}
+
+/* ---------- ช่องใส่รูป ---------- */
+.image-slot {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 2px dashed #555;
+    border-radius: 12px;
+    background: #2a2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: scale(1.05);
+    border-color: #888;
+}
+
+/* ---------- รูปที่อัปโหลด ---------- */
+.uploaded-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ---------- ปุ่มบันทึกข้อมูล ---------- */
+.save-button {
+    background: linear-gradient(90deg, #ff6b6b, #ff4a4a);
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    /* ✅ ปรับตำแหน่งให้ไปทางขวา */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+}
+
+.save-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- กล่องข้อมูลโปรไฟล์ ---------- */
+.profile-info-container {
+    background-color: #242424;
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    margin: 30px auto;
+}
+
+/* ---------- หัวข้อข้อมูลโปรไฟล์ ---------- */
+.profile-info-container h2 {
+    font-size: 22px;
+    color: #ffa726;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ---------- รายการข้อมูล ---------- */
+.profile-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* ---------- สไตล์ของรายการแต่ละข้อ ---------- */
+.profile-info-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.profile-info-list li:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.02);
+}
+
+/* ---------- สไตล์ตัวอักษรที่เป็นหัวข้อ (strong) ---------- */
+.profile-info-list strong {
+    color: #ffa726;
+    font-weight: bold;
+}
+
+/* ---------- Responsive สำหรับมือถือ ---------- */
+@media (max-width: 768px) {
+    .profile-box {
+        max-width: 95%;
+    }
+
+    .image-upload-container {
+        max-width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile-info-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .profile-info-list li {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .save-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+</style> -->  
+
       <div class="actions">
           <button class="dislike" onclick="swipe('left')">✖</button>
           <button class="superlike" onclick="swipe('superlike')">★</button>
@@ -676,7 +915,9 @@ body {
           // เคลียร์ข้อความ
           msgInput.value = "";
           // เปลี่ยนหน้าไปยังหน้าแชท หรือทำอย่างอื่น
-          window.location.href = "chat.php";
+          console.log(date);
+          
+          // window.location.href = "chat.php";
         } else {
           alert("ส่งข้อความไม่สำเร็จ: " + data.error);
         }
@@ -1221,26 +1462,84 @@ body {
 
       // ส่งข้อความ
       function sendChatMessage(match) {
-        let inputBox = document.getElementById("chat-input-box");
-        let message = inputBox.value.trim();
-        if (!message) return;
+    let inputBox = document.getElementById("chat-input-box");
+    let message = inputBox.value.trim();
 
-        fetch("send_message.php", {
-          method: "POST",
-          headers: {"Content-Type": "application/x-www-form-urlencoded"},
-          body: `match_id=${match.id}&message=${encodeURIComponent(message)}`
-        })
-        .then(r => r.json())
-        .then(data => {
-          if (data.success) {
+    if (!message) return;
+    console.log("📩 กำลังส่งข้อความไปหา match_id:", match.id);
+
+    fetch("send_message.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: `match_id=${match.id}&message=${encodeURIComponent(message)}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
             inputBox.value = "";
             loadChatHistory(match);
-          } else {
+        } else {
             alert("ไม่สามารถส่งข้อความได้: " + data.error);
-          }
-        })
-        .catch(err => console.error("Error sending message:", err));
-      }
+        }
+    })
+    .catch(err => console.error("Error sending message:", err));
+}
+
+
+      document.getElementById("sendMessageBtn").addEventListener("click", function () {
+    let message = document.getElementById("matchMessageInput").value.trim();
+    let matchId = document.getElementById("matchId").value; // สมมติว่ามี input hidden
+
+    if (!message) {
+        alert("กรุณากรอกข้อความก่อนส่ง");
+        return;
+    }
+
+    let formData = new FormData();
+    formData.append("match_id", matchId);
+    formData.append("message", message);
+
+    fetch("send_message.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert("บันทึกข้อความเรียบร้อย!");
+            window.location.href = `chat.php?match_id=${matchId}`; // ไปหน้าแชท
+        } else {
+            alert("เกิดข้อผิดพลาด: " + data.error);
+        }
+    })
+    .catch(error => console.error("Error:", error));
+});
+
+function recordMatch(match) {
+    console.log("🟢 กำลังส่ง match_id =", match.id);
+
+    fetch("save_match.php", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: "match_id=" + encodeURIComponent(match.id)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("🔍 Response จากเซิร์ฟเวอร์:", data);
+        if (data.success) {
+            alert("🎉 แมตช์สำเร็จแล้ว!");
+        } else {
+            console.error("❌ บันทึกการแมตช์ไม่สำเร็จ:", data.error);
+            alert("⚠️ ไม่สามารถแมตช์ได้: " + data.error);
+        }
+    })
+    .catch(err => {
+        console.error("❌ เกิดข้อผิดพลาด:", err);
+        alert("❌ เกิดข้อผิดพลาดขณะบันทึกแมตช์");
+    });
+}
+
+
 
       // ฟังก์ชันขอพิกัด
       function askForLocation() {

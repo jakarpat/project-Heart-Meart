@@ -784,3 +784,339 @@ goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0
 }
 goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%85%BE%EF%B8%8F+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B9%8A%E0%B8%9B%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94+O&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%E2%98%95+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F&exercise=%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87
 goal=%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5&zodiac=%E2%99%89+%E0%B8%9E%E0%B8%A4%E0%B8%A9%E0%B8%A0&love_expression=%E2%9D%A4%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87+%E0%B9%86&blood_type=%F0%9F%85%BE%EF%B8%8F+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B9%8A%E0%B8%9B%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94+O&pet=%F0%9F%90%A6+%E0%B8%99%E0%B8%81&drink=%E2%98%95+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F&exercise=%F0%9F%8F%83%E2%80%8D%E2%99%82%EF%B8%8F+%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"สเปน","education":"📜 การศึกษานอกระบบ","family_plan":"ยังไม่แน่ใจ 🤔","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🅰️ กรุ๊ปเลือด A","pet":"😸 แมว","drink":"🍵 ชา","exercise":"🏃‍♂️ วิ่ง","location":"36 กม.","age_range":"20 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83d\udcdc \u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e19\u0e2d\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "36 \u0e01\u0e21.",
+    "age_range": "20 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"สเปน","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"59 กม.","age_range":"31 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "59 \u0e01\u0e21.",
+    "age_range": "31 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"สเปน","education":"📜 การศึกษานอกระบบ","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"59 กม.","age_range":"31 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83d\udcdc \u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e19\u0e2d\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "59 \u0e01\u0e21.",
+    "age_range": "31 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"สเปน","education":"📜 การศึกษานอกระบบ","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"59 กม.","age_range":"31 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83d\udcdc \u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e19\u0e2d\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "59 \u0e01\u0e21.",
+    "age_range": "31 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"ญี่ปุ่น","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"ญี่ปุ่น","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"ไม่มีข้อมูล","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ฝรั่งเศส","education":"🛠️ สายอาชีพ","family_plan":"ยังไม่แน่ใจ 🤔","covid_vaccine":"ยังไม่ได้รับวัคซีน","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅰️ กรุ๊ปเลือด A","pet":"😸 แมว","drink":"☕ กาแฟ","exercise":"🧘‍♀️ โยคะ","location":"48 กม.","age_range":"19 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14",
+    "covid_vaccine": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd70\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83e\uddd8\u200d\u2640\ufe0f \u0e42\u0e22\u0e04\u0e30",
+    "location": "48 \u0e01\u0e21.",
+    "age_range": "19 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ฝรั่งเศส","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ฝรั่งเศส","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ฝรั่งเศส","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"ไม่มีข้อมูล","languages":"ไม่มีข้อมูล","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "languages": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"ไม่มีข้อมูล","languages":"ไม่มีข้อมูล","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "languages": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"ไม่มีข้อมูล","languages":"ไม่มีข้อมูล","education":"ไม่มีข้อมูล","family_plan":"ไม่มีข้อมูล","covid_vaccine":"ไม่มีข้อมูล","love_expression":"ไม่มีข้อมูล","blood_type":"ไม่มีข้อมูล","pet":"ไม่มีข้อมูล","drink":"ไม่มีข้อมูล","exercise":"ไม่มีข้อมูล","location":"0 กม.","age_range":"0 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "languages": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "education": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "family_plan": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "covid_vaccine": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "love_expression": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "blood_type": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "pet": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "drink": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "exercise": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "location": "0 \u0e01\u0e21.",
+    "age_range": "0 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ญี่ปุ่น","education":"ประถมศึกษา📜 การศึกษานอกระบบ","family_plan":"มีลูกคนแรก 👶","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅱️ กรุ๊ปเลือด B","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🏃‍♂️ วิ่ง","location":"41 กม.","age_range":"28 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32\ud83d\udcdc \u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e19\u0e2d\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+    "family_plan": "\u0e21\u0e35\u0e25\u0e39\u0e01\u0e04\u0e19\u0e41\u0e23\u0e01 \ud83d\udc76",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd71\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 B",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "41 \u0e01\u0e21.",
+    "age_range": "28 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♊ เมถุน","languages":"อังกฤษ","education":"🛠️ สายอาชีพ","family_plan":"ยังไม่แน่ใจ 🤔","covid_vaccine":"ยังไม่ได้รับวัคซีน","love_expression":"🌹 สร้างความโรแมนติก","blood_type":"🅰️ กรุ๊ปเลือด A","pet":"😸 แมว","drink":"🍹 น้ำผลไม้","exercise":"🏃‍♂️ วิ่ง","location":"33 กม.","age_range":"24 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u264a \u0e40\u0e21\u0e16\u0e38\u0e19",
+    "languages": "\u0e2d\u0e31\u0e07\u0e01\u0e24\u0e29",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e41\u0e19\u0e48\u0e43\u0e08 \ud83e\udd14",
+    "covid_vaccine": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19",
+    "love_expression": "\ud83c\udf39 \u0e2a\u0e23\u0e49\u0e32\u0e07\u0e04\u0e27\u0e32\u0e21\u0e42\u0e23\u0e41\u0e21\u0e19\u0e15\u0e34\u0e01",
+    "blood_type": "\ud83c\udd70\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "33 \u0e01\u0e21.",
+    "age_range": "24 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"ญี่ปุ่น","education":"🏫 สายสามัญ","family_plan":"ขยายครอบครัว 👨‍👩‍👧‍👦","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅱️ กรุ๊ปเลือด B","pet":"🐇 กระต่าย","drink":"🍹 น้ำผลไม้","exercise":"🚴‍♀️ ปั่นจักรยาน","location":"45 กม.","age_range":"25 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\ud83c\udfeb \u0e2a\u0e32\u0e22\u0e2a\u0e32\u0e21\u0e31\u0e0d",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd71\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 B",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "location": "45 \u0e01\u0e21.",
+    "age_range": "25 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ญี่ปุ่น","education":"ประถมศึกษา","family_plan":"ขยายครอบครัว 👨‍👩‍👧‍👦","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"💬 ภาษาแห่งความรัก","blood_type":"🅱️ กรุ๊ปเลือด B","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🏃‍♂️ วิ่ง","location":"48 กม.","age_range":"20 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\ud83d\udcac \u0e20\u0e32\u0e29\u0e32\u0e41\u0e2b\u0e48\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01",
+    "blood_type": "\ud83c\udd71\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 B",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "48 \u0e01\u0e21.",
+    "age_range": "20 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"ญี่ปุ่น","education":"ประถมศึกษา","family_plan":"มีลูกคนแรก 👶","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅰️ กรุ๊ปเลือด A","pet":"😸 แมว","drink":"🍹 น้ำผลไม้","exercise":"🏃‍♂️ วิ่ง","location":"36 กม.","age_range":"21 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+    "education": "\u0e1b\u0e23\u0e30\u0e16\u0e21\u0e28\u0e36\u0e01\u0e29\u0e32",
+    "family_plan": "\u0e21\u0e35\u0e25\u0e39\u0e01\u0e04\u0e19\u0e41\u0e23\u0e01 \ud83d\udc76",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd70\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 A",
+    "pet": "\ud83d\ude38 \u0e41\u0e21\u0e27",
+    "drink": "\ud83c\udf79 \u0e19\u0e49\u0e33\u0e1c\u0e25\u0e44\u0e21\u0e49",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "36 \u0e01\u0e21.",
+    "age_range": "21 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♈ เมษ","languages":"ฝรั่งเศส","education":"🛠️ สายอาชีพ","family_plan":"ขยายครอบครัว 👨‍👩‍👧‍👦","covid_vaccine":"ได้รับวัคซีนเข็มเดียว","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅾️ กรุ๊ปเลือด O","pet":"🐇 กระต่าย","drink":"☕ กาแฟ","exercise":"🚴‍♀️ ปั่นจักรยาน","location":"41 กม.","age_range":"28 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2648 \u0e40\u0e21\u0e29",
+    "languages": "\u0e1d\u0e23\u0e31\u0e48\u0e07\u0e40\u0e28\u0e2a",
+    "education": "\ud83d\udee0\ufe0f \u0e2a\u0e32\u0e22\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19\u0e40\u0e02\u0e47\u0e21\u0e40\u0e14\u0e35\u0e22\u0e27",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd7e\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 O",
+    "pet": "\ud83d\udc07 \u0e01\u0e23\u0e30\u0e15\u0e48\u0e32\u0e22",
+    "drink": "\u2615 \u0e01\u0e32\u0e41\u0e1f",
+    "exercise": "\ud83d\udeb4\u200d\u2640\ufe0f \u0e1b\u0e31\u0e48\u0e19\u0e08\u0e31\u0e01\u0e23\u0e22\u0e32\u0e19",
+    "location": "41 \u0e01\u0e21.",
+    "age_range": "28 \u0e1b\u0e35"
+}
+{"goal":"ไม่มีข้อมูล","zodiac":"♉ พฤษภ","languages":"สเปน","education":"📜 การศึกษานอกระบบ","family_plan":"ขยายครอบครัว 👨‍👩‍👧‍👦","covid_vaccine":"ยังไม่ได้รับวัคซีน","love_expression":"❤️ วิธีการแสดงความรักในสถานการณ์ต่าง ๆ","blood_type":"🅰️ กรุ๊ปเลือด A","pet":"🐕 สุนัข","drink":"🍵 ชา","exercise":"🏃‍♂️ วิ่ง","location":"46 กม.","age_range":"29 ปี"}
+{
+    "goal": "\u0e44\u0e21\u0e48\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25",
+    "zodiac": "\u2649 \u0e1e\u0e24\u0e29\u0e20",
+    "languages": "\u0e2a\u0e40\u0e1b\u0e19",
+    "education": "\ud83d\udcdc \u0e01\u0e32\u0e23\u0e28\u0e36\u0e01\u0e29\u0e32\u0e19\u0e2d\u0e01\u0e23\u0e30\u0e1a\u0e1a",
+    "family_plan": "\u0e02\u0e22\u0e32\u0e22\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 \ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+    "covid_vaccine": "\u0e22\u0e31\u0e07\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49\u0e23\u0e31\u0e1a\u0e27\u0e31\u0e04\u0e0b\u0e35\u0e19",
+    "love_expression": "\u2764\ufe0f \u0e27\u0e34\u0e18\u0e35\u0e01\u0e32\u0e23\u0e41\u0e2a\u0e14\u0e07\u0e04\u0e27\u0e32\u0e21\u0e23\u0e31\u0e01\u0e43\u0e19\u0e2a\u0e16\u0e32\u0e19\u0e01\u0e32\u0e23\u0e13\u0e4c\u0e15\u0e48\u0e32\u0e07 \u0e46",
+    "blood_type": "\ud83c\udd70\ufe0f \u0e01\u0e23\u0e38\u0e4a\u0e1b\u0e40\u0e25\u0e37\u0e2d\u0e14 A",
+    "pet": "\ud83d\udc15 \u0e2a\u0e38\u0e19\u0e31\u0e02",
+    "drink": "\ud83c\udf75 \u0e0a\u0e32",
+    "exercise": "\ud83c\udfc3\u200d\u2642\ufe0f \u0e27\u0e34\u0e48\u0e07",
+    "location": "46 \u0e01\u0e21.",
+    "age_range": "29 \u0e1b\u0e35"
+}

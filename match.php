@@ -8,76 +8,104 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+// ตรวจสอบ user_id และ email ใน Session
+if (!isset($_SESSION['user_id']) || !is_numeric($_SESSION['user_id']) || $_SESSION['user_id'] <= 0) {
+    session_destroy();
+    header("Location: login.php");
+    exit();
+}
+
+$user_id = intval($_SESSION['user_id']);
+$email = isset($_SESSION['email']) ? trim($_SESSION['email']) : null;
+
+// ตรวจสอบ email ต้องไม่เป็น null
+if (!$email) {
+    die("เกิดข้อผิดพลาด: Email ไม่ถูกต้อง");
+}
+
 // โหลดการตั้งค่าฐานข้อมูล
 require_once 'config.php';
 
 try {
     // สร้างการเชื่อมต่อฐานข้อมูล
     $conn = getDatabaseConnection();
+    $conn->set_charset("utf8mb4");
 
-    // ตรวจสอบว่าเข้าสู่ระบบหรือยัง
-    if (empty($_SESSION['user_id']) || !is_numeric($_SESSION['user_id']) || $_SESSION['user_id'] <= 0) {
-        throw new Exception("เกิดข้อผิดพลาด: user_id ไม่ถูกต้อง (ค่า: " . ($_SESSION['user_id'] ?? 'ไม่ได้กำหนด') . ")");
-    }
+    // ✅ ตรวจสอบว่าผู้ใช้มีข้อมูลใน `match` หรือไม่
+    $sql_check = "SELECT 1 FROM `match` WHERE user_id = ?";
+    $stmt_check = $conn->prepare($sql_check);
+    $stmt_check->bind_param("i", $user_id);
+    $stmt_check->execute();
+    $stmt_check->store_result();
+    $hasMatchData = $stmt_check->num_rows > 0;
+    $stmt_check->close();
 
-    $user_id = intval($_SESSION['user_id']); // แปลงให้แน่ใจว่าเป็น int
-
-    // ตรวจสอบว่ามีการส่งค่าจากฟอร์มหรือไม่
+    // ✅ อัปเดตข้อมูลหากมีการส่งค่าแบบ POST
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $updateFields = [];
 
-        // รับค่าจากฟอร์มและบันทึก
-        if (!empty($_POST['goal'])) {
-            $updateFields['goal'] = $_POST['goal'];
+        // รายการฟิลด์ที่ต้องการอัปเดต
+        $fields = ['goal', 'zodiac', 'languages', 'education', 'family_plan', 'covid_vaccine', 'love_expression', 'blood_type', 'pet', 'drink', 'exercise', 'location', 'age_range'];
+
+        foreach ($fields as $field) {
+            $updateFields[$field] = isset($_POST[$field]) ? trim($_POST[$field]) : null;
         }
 
-        if (!empty($_POST['zodiac'])) {
-            $updateFields['zodiac'] = $_POST['zodiac'];
-        }
-
-        if (!empty($_POST['love_expression'])) {
-            $updateFields['love_expression'] = $_POST['love_expression'];
-        }
-
-        // ตรวจสอบว่ามี `user_id` อยู่ในตาราง match หรือไม่
-        $sql_check = "SELECT COUNT(*) FROM `match` WHERE user_id = ?";
-        $stmt_check = $conn->prepare($sql_check);
-        $stmt_check->bind_param("i", $user_id);
-        $stmt_check->execute();
-        $stmt_check->bind_result($count);
-        $stmt_check->fetch();
-        $stmt_check->close();
-
-        if ($count == 0) {
-            $sql_insert = "INSERT INTO `match` (user_id, email) VALUES (?, ?)";
+        if (!$hasMatchData) {
+            // ✅ ใช้ INSERT IGNORE ป้องกัน Duplicate Key
+            $sql_insert = "INSERT IGNORE INTO `match` (user_id, email, goal, zodiac, languages, education, family_plan, covid_vaccine, love_expression, blood_type, pet, drink, exercise, location, age_range) 
+                           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             $stmt_insert = $conn->prepare($sql_insert);
-            $stmt_insert->bind_param("is", $user_id, $email);
-            $stmt_insert->execute();
-            
+            $stmt_insert->bind_param("issssssssssssss", 
+                                     $user_id, 
+                                     $email, 
+                                     $updateFields['goal'], 
+                                     $updateFields['zodiac'], 
+                                     $updateFields['languages'], 
+                                     $updateFields['education'], 
+                                     $updateFields['family_plan'], 
+                                     $updateFields['covid_vaccine'], 
+                                     $updateFields['love_expression'], 
+                                     $updateFields['blood_type'], 
+                                     $updateFields['pet'], 
+                                     $updateFields['drink'], 
+                                     $updateFields['exercise'], 
+                                     $updateFields['location'], 
+                                     $updateFields['age_range']);
+            if (!$stmt_insert->execute()) {
+                throw new Exception("เกิดข้อผิดพลาดในการเพิ่มข้อมูล: " . $stmt_insert->error);
+            }
             $stmt_insert->close();
-            
-        }
-
-        // อัปเดตข้อมูล
-        $sql_update = "UPDATE `match` SET goal = ?, zodiac = ?, love_expression = ? WHERE user_id = ?";
-        $stmt_update = $conn->prepare($sql_update);
-        if ($stmt_update) {
-            $stmt_update->bind_param(
-                "sssi",
-                $updateFields['goal'] ?? null,
-                $updateFields['zodiac'] ?? null,
-                $updateFields['love_expression'] ?? null,
-                $user_id
-            );
+        } else {
+            // ✅ ถ้ามีข้อมูลอยู่แล้ว ให้ทำการอัปเดต
+            $sql_update = "UPDATE `match` 
+                           SET goal = ?, zodiac = ?, languages = ?, education = ?, family_plan = ?, covid_vaccine = ?, 
+                               love_expression = ?, blood_type = ?, pet = ?, drink = ?, exercise = ?, location = ?, age_range = ? 
+                           WHERE user_id = ?";
+            $stmt_update = $conn->prepare($sql_update);
+            $stmt_update->bind_param("sssssssssssssi", 
+                                     $updateFields['goal'], 
+                                     $updateFields['zodiac'], 
+                                     $updateFields['languages'], 
+                                     $updateFields['education'], 
+                                     $updateFields['family_plan'], 
+                                     $updateFields['covid_vaccine'], 
+                                     $updateFields['love_expression'], 
+                                     $updateFields['blood_type'], 
+                                     $updateFields['pet'], 
+                                     $updateFields['drink'], 
+                                     $updateFields['exercise'], 
+                                     $updateFields['location'], 
+                                     $updateFields['age_range'], 
+                                     $user_id);
             if (!$stmt_update->execute()) {
-                throw new Exception("เกิดข้อผิดพลาดในการบันทึกข้อมูล: " . $stmt_update->error);
+                throw new Exception("เกิดข้อผิดพลาดในการอัปเดตข้อมูล: " . $stmt_update->error);
             }
             $stmt_update->close();
-        } else {
-            throw new Exception("การเตรียมคำสั่ง SQL ผิดพลาด: " . $conn->error);
         }
     }
 
+    // ✅ ดึงข้อมูลผู้ใช้จาก `users` และ `profile1`
     // ดึงข้อมูลผู้ใช้จากตาราง users และ profile1
     $sql = "
         SELECT 
@@ -91,12 +119,7 @@ try {
         LEFT JOIN profile1 p ON u.email = p.email
         WHERE u.id = ?
     ";
-
     $stmt = $conn->prepare($sql);
-    if (!$stmt) {
-        throw new Exception("การเตรียมคำสั่ง SQL ผิดพลาด: " . $conn->error);
-    }
-
     $stmt->bind_param("i", $user_id);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -111,28 +134,24 @@ try {
     ];
     $stmt->close();
 
-    // ดึงข้อมูล match สำหรับ user_id นี้
+    // ✅ ดึงข้อมูล match
     $sql_match = "SELECT * FROM `match` WHERE user_id = ?";
     $stmt_match = $conn->prepare($sql_match);
-    if (!$stmt_match) {
-        throw new Exception("การเตรียมคำสั่ง SQL สำหรับ match ผิดพลาด: " . $conn->error);
-    }
     $stmt_match->bind_param("i", $user_id);
     $stmt_match->execute();
     $result_match = $stmt_match->get_result();
     $match_data = $result_match->num_rows > 0 ? $result_match->fetch_assoc() : [];
     $stmt_match->close();
 
+    // ✅ ปิดการเชื่อมต่อฐานข้อมูล
     $conn->close();
 
-    // จัดการรูปโปรไฟล์
-    $upload_path = "";
-    $profile_picture = $profile1['profile_pictures'] ?? 'default_profile.jpg';
-    $profile_picture_url = file_exists(__DIR__ . '/' . $upload_path . $profile_picture)
-        ? $upload_path . $profile_picture
-        : $upload_path . 'default_profile.jpg';
+    // ✅ จัดการรูปโปรไฟล์
+    $upload_path = "uploads/";
+    $profile_picture = !empty($profile1['profile_pictures']) ? $profile1['profile_pictures'] : 'default_profile.jpg';
+    $profile_picture_path = realpath(__DIR__ . '/' . $upload_path . $profile_picture) ?: realpath(__DIR__ . '/' . $upload_path . 'default_profile.jpg');
 
-    // คำนวณอายุ
+    // ✅ คำนวณอายุ
     $age = isset($profile1['dob']) && $profile1['dob'] !== null 
         ? (date('Y') - date('Y', strtotime($profile1['dob']))) 
         : 'ไม่ทราบอายุ';
@@ -142,9 +161,13 @@ try {
     exit();
 }
 
-
-    
+// ✅ Debug เช็คค่า user_id และ email
+var_dump($_SESSION['user_id'], $_SESSION['email']);
 ?>
+
+
+
+
 
 
 
